@@ -4,28 +4,22 @@ import {ChevronLeft, ChevronRight} from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 
 const services = [
-    {
-        title: "Corte normal",
-        image: "/corte1.png",
-        price: "R$80",
-        linkText: "Olá, vi no site sobre o Plano Premiun 4 cortes na semana por 80 reais."
-    },
-
-    {
-        title: "Corte normal",
-        image: "/corte2.png",
-        price: "R$80",
-        linkText: "Olá, vi no site sobre o Plano Premiun 4 cortes na semana por 80 reais."
-    },
-
-    {
-        title: "Corte normal",
-        image: "/corte3.png",
-        price: "R$80",
-        linkText: "Olá, vi no site sobre o Plano Premiun 4 cortes na semana por 80 reais."
-    }
-
-]
+  {
+    title: "Corte Clássico ✂️",
+    image: "/corte1.png",
+    price: "R$35",
+  },
+  {
+    title: "Cabelo e Barba 🪒",
+    image: "/corte2.png",
+    price: "R$55",
+  },
+  {
+    title: "Corte Degradê 🔥",
+    image: "/corte3.png",
+    price: "R$40",
+  }
+];
 
 export function Services() {
 

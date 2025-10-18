@@ -5,34 +5,34 @@ import { WhatsappLogo } from "@phosphor-icons/react";
 import useEmblaCarousel from "embla-carousel-react";
 
 const plans = [
-    {
-        title: "Plano Bronze 🪒✨",
-        description: "Inclui 4 cortes na semana para você usufruir da melhor maneira possivel não via perder em preço unico com corte serviço na barbearia Conrado Barbearia",
-        duration: "1h",
-        price: "$80",
-        icon: <Scissors />,
-        linkText: "Olá, vi no site sobre o Plano Premiun 4 cortes na semana por 80 reais."
-    },
+  {
+    title: "Plano Bronze 🪒✨",
+    description: "Perfeito para quem gosta de estar sempre com o visual em dia. Inclui 2 cortes por mês com todo o cuidado e qualidade da Conrado Barbearia.",
+    duration: "45min",
+    price: "R$ 60",
+    icon: <Scissors />,
+    linkText: "Olá, vi no site sobre o Plano Bronze com 2 cortes por mês por 60 reais."
+  },
 
-    {
-        title: "Plano Prata 💈🔥",
-        description: "Inclui 4 cortes na semana para você usufruir da melhor maneira possivel não via perder em preço unico com corte serviço na barbearia Conrado Barbearia",
-        duration: "1h",
-        price: "$80",
-        icon: <Scissors />,
-        linkText: "Olá, vi no site sobre o Plano Premiun 4 cortes na semana por 80 reais."
-    },
+  {
+    title: "Plano Prata 💈🔥",
+    description: "Ideal para quem quer praticidade e estilo. São 3 cortes por mês com atendimento prioritário e todo o conforto da Conrado Barbearia.",
+    duration: "45min",
+    price: "R$ 80",
+    icon: <Scissors />,
+    linkText: "Olá, vi no site sobre o Plano Prata com 3 cortes por mês por 80 reais."
+  },
 
-    {
-        title: "Plano Ouro 👑✂️",
-        description: "Inclui 4 cortes na semana para você usufruir da melhor maneira possivel não via perder em preço unico com corte serviço na barbearia Conrado Barbearia",
-        duration: "1h",
-        price: "$80",
-        icon: <Scissors />,
-        linkText: "Olá, vi no site sobre o Plano Premiun 4 cortes na semana por 80 reais."
-    }
+  {
+    title: "Plano Ouro 👑✂️",
+    description: "Para os clientes que querem o máximo em cuidado e exclusividade. 4 cortes por mês, com bebidas e tratamento especial durante o atendimento.",
+    duration: "45min",
+    price: "R$ 100",
+    icon: <Scissors />,
+    linkText: "Olá, vi no site sobre o Plano Ouro com 4 cortes por mês por 100 reais."
+  }
 
-]
+];
 
 export function Plans() {
 
@@ -82,6 +82,9 @@ export function Plans() {
 
                                         <div className="border-t border-gray-700 pt-4 flex items-center justify-between">
                                             <div className="flex items-center gap-2 text-sm">
+                                                <span className="font-semibold px-3 py-2 rounded-md bg-red-500">
+                                                    {item.price}
+                                                </span> -
                                                 <Clock className="w-4 h-4" />
                                                 <span>{item.duration}</span>
                                             </div>

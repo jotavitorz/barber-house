@@ -1,6 +1,6 @@
 import Image from "next/image";
 import about1Img from "../../../public/about-1.png";
-import about2Img from "../../../public/about-2.jpg";
+import about2Img from "../../../public/about-2.png";
 import { Check, MapPin } from "lucide-react";
 import { WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
@@ -38,13 +38,13 @@ export function About() {
                         <h2 className="text-4xl font-bold">SOBRE</h2>
 
                         <p>
-                        Na Conrado Barber Storage, acreditamos que um bom corte de cabelo vai além da aparência—é uma experiência. Com profissionais qualificados e um ambiente moderno, oferecemos cortes, barbas e cuidados que elevam seu estilo e sua confiança. Nosso compromisso é proporcionar um atendimento personalizado, com técnicas de alto nível e produtos de qualidade, garantindo sempre o melhor para nossos clientes. Entre, sinta-se em casa e saia renovado. Seu estilo começa aqui!   
+                        Na BarberDev, acreditamos que um bom corte de cabelo vai além da aparência—é uma experiência. Com profissionais qualificados e um ambiente moderno, oferecemos cortes, barbas e cuidados que elevam seu estilo e sua confiança. Nosso compromisso é proporcionar um atendimento personalizado, com técnicas de alto nível e produtos de qualidade, garantindo sempre o melhor para nossos clientes. Entre, sinta-se em casa e saia renovado. Seu estilo começa aqui!   
                         </p>  
 
                         <ul className="space-y-4">
                             <li className="flex items-center gap-2">
                                 <Check className="text-red-500"/>
-                                Aberto desde 2020
+                                Aberto desde 2025
                             </li>
                             <li className="flex items-center gap-2">
                                 <Check className="text-red-500"/>

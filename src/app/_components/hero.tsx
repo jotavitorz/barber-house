@@ -1,5 +1,5 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr';
-import logoCorado from '../../../public/logo-conrado.png';
+import logoBarber from '../../../public/logo-barberdev.png';
 import Image from 'next/image';
 
 export function Hero(){
@@ -8,7 +8,7 @@ export function Hero(){
             
             <div>
                 <Image 
-                src={logoCorado}
+                src={logoBarber}
                 alt='Logo da Barbearia'
                 fill
                 sizes="100vw"
@@ -31,7 +31,7 @@ export function Hero(){
                        </h1>
 
                        <p className="lg:text-lg">
-                       "Seja bem-vindo à Conrado Barbearia! Aqui, cada corte é um detalhe de estilo e confiança. Agende seu horário e eleve seu visual!"
+                       "Seja bem-vindo à BarberDev! Aqui, cada corte é um detalhe de estilo e confiança. Agende seu horário e eleve seu visual!"
                        </p>
 
 
@@ -53,10 +53,10 @@ export function Hero(){
 
                     <div className='hidden md:block h-full relative'>
                         <Image 
-                        src={logoCorado}
+                        src={logoBarber}
                         alt="Logo da Barbearia"
                         /* mudei o boject-container para cover */
-                        className='object-cover'
+                        className='object-contain'
                         fill
                         sizes="(max-width: 768px) 0vw, 50vw"
                         quality={100}

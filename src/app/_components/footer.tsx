@@ -7,8 +7,8 @@ export function Footer() {
 
             <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
                 <div>
-                    <h3 className="text-2xl font-semibold mb-2">Conrado Barber</h3>
-                    <p className="mb-4">Cuide do seu Estilo na Barbearia Conrado</p>
+                    <h3 className="text-2xl font-semibold mb-2">BarberDev</h3>
+                    <p className="mb-4">Cuide do seu Estilo na BarberDev</p>
                     <a
                         href="#"
                         className="bg-green-500 px-4 py-2 rounded-md"
@@ -21,8 +21,8 @@ export function Footer() {
                 <div>
                     <h3 className="text-2xl font-semibold mb-2">Contatos</h3>
                     <p>Email: teste@teste.com</p>
-                    <p>Telefone: (34) 24232424242</p>
-                    <p>Rua: Alameda Jose de Oliveira, Jardim Holanda, Uberlandia | MG</p>
+                    <p>Telefone: (XX) XXXXX-XXXX</p>
+                    <p>Rua: Programador FullStack, Engenheiro de Software Uberlandia | MG</p>
                 </div>
 
                 <div>

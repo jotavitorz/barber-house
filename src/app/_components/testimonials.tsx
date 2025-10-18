@@ -1,32 +1,40 @@
 "use client"
 
-import {ChevronLeft, ChevronRight, Clock, Scissors} from "lucide-react";
-import { WhatsappLogo } from "@phosphor-icons/react";
+import {ChevronLeft, ChevronRight,} from "lucide-react";
 import useEmblaCarousel from "embla-carousel-react";
 import tutor1 from "../../../public/tutor1.png";
 import Image from "next/image";
 
 const testimonials = [
     {
-        content: "Me surpreendeu demais a beleza da barbearia, decoração e etc. Amei o lugar. Atendimento nota 1000. Meu filho é autista e teve seu primeiro corte fora de casa com o Conrado, enquanto um outro profissional auxiliava com meu filho. Ele saiu da barbearia falando que cortar o cabelo é muito bom. Acho que nem tenho palavras que expressam minha alegria. Muito obrigada! Ganhou um mini cliente fiel.😍",
-        author: "Mariana Souza",
-        temp: "2 anos de Experiencia",
-        image: tutor1,
-
+    author: "Carlos Henrique",
+    content: "Excelente atendimento! O barbeiro é super atencioso e o ambiente é muito agradável. Recomendo demais!",
+    temp: "há 2 dias",
+    image: tutor1
     },
-
     {
-        content: "Sou novo na cidade e fui muito bem recebido por Conrado e sua equipe, muito prestativo e educado e me faz sentir em casa, sem contar que onde encontra vem nos cumprimentar com a maior satisfação, então só tenho a agradecer o atendimento de todos profissionais pelo carinho e cuidado que tem com agente. Super indico! Gente boa de mais da conta.",
-        author: "luis carlos",
-        temp: "2 anos de Experiencia",
-        image: tutor1,
+    author: "Lucas Almeida",
+    content: "Corte impecável e o fade ficou perfeito. Além disso, o cafézinho que servem é top!",
+    temp: "há 5 dias",
+    image: tutor1
     },
-
     {
-        content: "Parabenizar excelente trabalho do Conrado e sua equipe, vale a pena vocês que não conhece ir lá conhecer atendimento extraordinário e preço acessívo agradecer pelo talento e atendimento!",
-        author: "Eduardo Henrique",
-        temp: "2 anos de Experiencia",
-        image: tutor1,
+    author: "João Pedro",
+    content: "Achei o serviço muito profissional e o preço justo. Saí satisfeito e com o visual renovado!",
+    temp: "há 1 semana",
+    image: tutor1
+    },
+    {
+    author: "Marcos Vinícius",
+    content: "A barbearia tem um estilo moderno e os profissionais mandam muito bem. Atendimento rápido e de qualidade.",
+    temp: "há 2 semanas",
+    image: tutor1
+    },
+    {
+    author: "Felipe Andrade",
+    content: "Melhor barbearia da região! Sempre saio de lá com autoestima lá em cima. Ambiente acolhedor e música boa!",
+    temp: "há 3 semanas",
+    image: tutor1
     }
 ]
 
