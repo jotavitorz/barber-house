@@ -1,36 +1,111 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+<p align="center">
+  <img src="../.github/preview.png" alt="BarberHouse Preview">
+</p>
 
-First, run the development server:
+<h1 align="center">💈 BarberHouse</h1>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+  Um projeto fictício de barbearia desenvolvido com <strong>Next.js</strong>, <strong>TypeScript</strong> e <strong>Tailwind CSS</strong>.  
+  Criado para demonstrar habilidades em front-end, design responsivo e boas práticas de desenvolvimento moderno.
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<p align="center">
+  <img  src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌐 Demo
 
-## Learn More
+👉 [barber-house-three.vercel.app](https://barber-house-three.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+[![My Skills](https://skillicons.dev/icons?i=nextjs,ts,react,tailwind,vercel,git)](https://skillicons.dev)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## ⚙️ Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone o projeto**
+   ```bash
+   git clone https://github.com/seu-usuario/barberhouse.git
+    ````
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Entre na pasta**
+   ```bash
+   cd barberhouse
+    ````
+
+3. **Instale as dependências**
+
+   ```bash
+   npm install
+   # ou
+   yarn
+   ```
+
+4. **Inicie o servidor de desenvolvimento**
+
+   ```bash
+   npm run dev
+   # ou
+   yarn dev
+   ```
+
+5. O projeto estará disponível em [http://localhost:3000](http://localhost:3000)
+
+---
+
+## ✨ Funcionalidades
+
+* 🧔 **Hero Section** – Apresentação principal com chamada visual.
+* 🧾 **Sobre** – Breve descrição sobre a barbearia (conteúdo fictício).
+* 💈 **Serviços e Planos** – Listagem ilustrativa de opções e preços.
+* 💬 **Depoimentos** – Comentários e feedbacks de exemplo.
+* 📞 **Footer** – Contato e redes sociais simuladas.
+* ⚡ **Responsivo** – Totalmente adaptado para desktop e mobile.
+
+---
+
+## 💡 Objetivo do Projeto
+
+Este projeto foi criado com fins **educacionais e de portfólio**, representando o site de uma barbearia moderna.
+O foco está na **organização do código**, **design limpo** e **uso eficiente das tecnologias Next.js + Tailwind + TypeScript**.
+
+---
+
+## 🤝 Contribuindo
+
+1. **Clone o repositório**
+
+   ```bash
+   git clone https://github.com/seu-usuario/barberhouse.git
+   ```
+2. **Crie uma nova branch**
+
+   ```bash
+   git checkout -b feature/nome-da-feature
+   ```
+3. **Envie seu commit**
+
+   ```bash
+   git commit -m "feat: descrição da mudança"
+   ```
+4. **Abra um Pull Request**
+
+---
+
+## 🪪 License
+
+Este projeto está sob a licença [MIT](https://opensource.org/licenses/MIT).
+Sinta-se livre para usar como referência ou inspiração.
+
+---
+
+<p align="center">💈 Desenvolvido com <strong> < / > </strong> por <strong>João Vitor</strong></p>
