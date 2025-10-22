@@ -1,5 +1,5 @@
 import { WhatsappLogo } from '@phosphor-icons/react/dist/ssr';
-import logoBarber from '../../../public/logo-barberdev.png';
+import logoBarber from '../../../public/logo-barber.png';
 import Image from 'next/image';
 
 export function Hero(){
@@ -31,7 +31,7 @@ export function Hero(){
                        </h1>
 
                        <p className="lg:text-lg">
-                       "Seja bem-vindo à BarberDev! Aqui, cada corte é um detalhe de estilo e confiança. Agende seu horário e eleve seu visual!"
+                       "Seja bem-vindo à Barber House! Aqui, cada corte é um detalhe de estilo e confiança. Agende seu horário e eleve seu visual!"
                        </p>
 
 

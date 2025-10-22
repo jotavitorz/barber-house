@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="../.github/preview.png" alt="BarberHouse Preview">
+  <img src="../.github/preview-project.png" alt="BarberHouse Preview">
 </p>
 
 <h1 align="center">💈 BarberHouse</h1>

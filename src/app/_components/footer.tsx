@@ -7,8 +7,8 @@ export function Footer() {
 
             <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12 mt-5">
                 <div>
-                    <h3 className="text-2xl font-semibold mb-2">BarberDev</h3>
-                    <p className="mb-4">Cuide do seu Estilo na BarberDev</p>
+                    <h3 className="text-2xl font-semibold mb-2">Barber House</h3>
+                    <p className="mb-4">Cuide do seu Estilo na Barber House</p>
                     <a
                         href="#"
                         className="bg-green-500 px-4 py-2 rounded-md"

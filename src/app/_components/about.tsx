@@ -38,7 +38,7 @@ export function About() {
                         <h2 className="text-4xl font-bold">SOBRE</h2>
 
                         <p>
-                        Na BarberDev, acreditamos que um bom corte de cabelo vai além da aparência—é uma experiência. Com profissionais qualificados e um ambiente moderno, oferecemos cortes, barbas e cuidados que elevam seu estilo e sua confiança. Nosso compromisso é proporcionar um atendimento personalizado, com técnicas de alto nível e produtos de qualidade, garantindo sempre o melhor para nossos clientes. Entre, sinta-se em casa e saia renovado. Seu estilo começa aqui!   
+                        Na Barber House, acreditamos que um bom corte de cabelo vai além da aparência—é uma experiência. Com profissionais qualificados e um ambiente moderno, oferecemos cortes, barbas e cuidados que elevam seu estilo e sua confiança. Nosso compromisso é proporcionar um atendimento personalizado, com técnicas de alto nível e produtos de qualidade, garantindo sempre o melhor para nossos clientes. Entre, sinta-se em casa e saia renovado. Seu estilo começa aqui!   
                         </p>  
 
                         <ul className="space-y-4">
