@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="../assets/preview-project.png" alt="BarberHouse Preview">
+  <img height="500" width="1000" src="./assets/preview-project.png" alt="BarberHouse Preview">
 </p>
 
 <h1 align="center">💈 BarberHouse</h1>
