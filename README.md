@@ -34,12 +34,12 @@
 
 1. **Clone o projeto**
    ```bash
-   git clone https://github.com/seu-usuario/barberhouse.git
+   git clone https://github.com/jotavitorz/barber-house.git
     ````
 
 2. **Entre na pasta**
    ```bash
-   cd barberhouse
+   cd barber-house
     ````
 
 3. **Instale as dependências**
